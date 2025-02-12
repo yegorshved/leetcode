@@ -6,4 +6,5 @@ class Solution:
         for i in s:
             sortedS = ''.join(sorted(i))
             result[sortedS].append(i)
+        
         return list(result.values())    
